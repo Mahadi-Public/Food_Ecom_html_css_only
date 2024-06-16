@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD E-commerce</title>
+    <!-- css Links -->
+     <link rel="stylesheet" href="css/root.css">
+     <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/footer.css">
+     <link rel="stylesheet" href="css/media.css">
+     <!-- fontawsome cdn links -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section start -->
+    <header>
+        <section class="container">
+            <nav class="nav-container">
+                <div>
+                    <img src="Images/background-image-icons/nav-icon.png" class="nav-icon" alt="">
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+                <div class="nav-search">
+                    <form action="" class="search-bar-form">
+                        <label for="gsearch">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 search-icons" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                        </label>
+                        <input type="search" id="gsearch" name="gsearch" placeholder="Search"> 
+                        <div style="width: fit-content; height: max-content; color: #ADADAD;"> | </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 search-icons" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </form>
+                </div>
+            </nav>
+            <!-- Banner section start -->
+            <section>
+                <div class="banner-section-background">
+                    <div class="banner-section-container">
+                        <div class="banner-tag">
+                            <h5>Bike Delivery</h5>
+                            <img src="Images/background-image-icons/banner-icon.png" alt="">
+                        </div>
+                        <div class="banner-section-content">
+                            <div>
+                                <div class="banner-title">
+                                    <h1>The Fastest <br> <span>Delivery</span> <br>  In <span>Your City</span></h1>
+                                </div>
+                                <div class="banner-desc">
+                                    <p>Discover a world of flavors delivered right to your doorstep. From comforting classics to adventurous dishes, enjoy hassle-free dining with our speedy food delivery service.</p>
+                                </div>
+                                <div class="banner-button-container">
+                                    <button class="order-button">Order Now</button>
+                                    <div class="banner-content-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 banner-button-icons">
+                                            <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                                        </svg>
+                                        
+                                        <button class="process-button">Order Process</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="banner-cards-container">
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="Images/Hero-section-image/card-1.png" alt="Image/">
+                                            </div>
+                                            <div class="card-content">
+                                                <h4>Burger</h4>
+                                                <p>Mushroom Sauce</p>
+                                                <p><span>$</span>5.15</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="Images/Hero-section-image/card-3.png" alt="Image/">
+                                            </div>
+                                            <div class="card-content">
+                                                <h4>Food Combo</h4>
+                                                <p>Mushroom Sauce</p>
+                                                <p><span style="color: red;">$</span>9.15</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="Images/Hero-section-image/card-2.png" alt="Image/">
+                                            </div>
+                                            <div class="card-content">
+                                                <h4>Pizza</h4>
+                                                <p>Mushroom Sauce</p>
+                                                <p><span style="color: red;">$</span>6.15</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-image">
+                                                <img src="Images/Hero-section-image/card-4.png" alt="Image/">
+                                            </div>
+                                            <div class="card-content">
+                                                <h4>Cake</h4>
+                                                <p>Mushroom Sauce</p>
+                                                <p><span style="color: red;">$</span>5.15</p>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Banner section end -->
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main>
+        <!-- address section start -->
+         <section class="container">
+            <div class="address-section-container">
+                <div class="time">
+                    <div class="address-section-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25ZM12.75 6a.75.75 0 0 0-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 0 0 0-1.5h-3.75V6Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h5 class="address-section-title">Today 10:00am - 10:00pm</h5>
+                    <p class="address-section-desc">Working time</p>    
+                </div>
+                <div class="location">
+                    <div class="address-section-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+                        </svg>                          
+                    </div>
+                    <h5 class="address-section-title">Mohammadpur, Dhaka</h5>
+                    <p class="address-section-desc">Our Location</p>  
+                </div>
+                <div class="contact">
+                    <div class="address-section-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M15 3.75a.75.75 0 0 1 .75-.75h4.5a.75.75 0 0 1 .75.75v4.5a.75.75 0 0 1-1.5 0V5.56l-4.72 4.72a.75.75 0 1 1-1.06-1.06l4.72-4.72h-2.69a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h5 class="address-section-title">+88 017 0000 0000</h5>
+                    <p class="address-section-desc">Phone Number</p>  
+                </div>
+            </div>
+         </section>
+        <!-- address section end -->
+        
+        <!-- product section start -->
+         <section class="container">
+            <div class="product-section-container">
+                <div>
+                    <h5 class="sections-title">Product</h5>
+                    <h1 class="section-sub-title">Most Popular Items</h1>
+                </div>
+                <div class="products-cards-container">
+                    <div class="product-card ">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-1.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-2.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Enchilade</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>5.0</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$25.50</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-3.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Green Beans</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$12.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-4.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Pizza</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>5.0</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$18.50</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-5.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Chicken Pot Pie</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$25.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-6.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Green Salad</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-1.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Jollibee</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-2.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-3.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-4.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-5.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="product-card extra-product" style="display: none;">
+                        <div class="product-card-image">
+                            <img src="Images/products-images/product-image-6.png" alt="">
+                        </div>
+                        <div class="product-card-content">
+                            <h4>Gyro Sandwhic</h4>
+                            <div class="product-card-icons">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                                </svg>   
+                                <span>4.9</span>                               
+                            </div>
+                        </div>
+                        <div class="produt-card-button">
+                            <button>Add To Cart</button>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-cards-button">
+                    <button id="toggleProducts">
+                        See More Products 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 product-button-iocns">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                    </button>
+                </div>
+            </div>
+         </section>
+         <!-- product section end  -->
+
+         <!-- favorite food section start -->
+          <section class="container">
+            <div class="favorite-section-container">
+                <div>
+                    <h5 class="sections-title">Services</h5>
+                    <h1 class="section-sub-title">Why Choose Our Favorite Food</h1>
+                </div>
+                <div class="favorite-sections-cards">
+                    <div class="favorite-card">
+                        <div class="favorite-card-image">
+                            <img src="Images/favorite-foods-images/icons-1.png" alt="">
+                        </div>
+                        <div class="favorite-card-title">
+                            <h3>Qualityfull Food</h3>
+                        </div>
+                        <div class="favorite-card-desc">
+                            <p>But I must explain to you how all this
+                                mistaken idea of denouncing pleasur and
+                                prasising pain was bron.</p>
+                        </div>
+                    </div>
+                    <div class="favorite-card-item">
+                        <div class="favorite-card-image">
+                            <img src="Images/favorite-foods-images/icons-2.png" alt="">
+                        </div>
+                        <div class="favorite-card-title">
+                            <h3>Healthy Food</h3>
+                        </div>
+                        <div class="favorite-card-desc">
+                            <p>But I must explain to you how all this
+                                mistaken idea of denouncing pleasur and
+                                prasising pain was bron.</p>
+                        </div>
+                    </div>
+                    <div class="favorite-card">
+                        <div class="favorite-card-image">
+                            <img src="Images/favorite-foods-images/icons-3.png" alt="">
+                        </div>
+                        <div class="favorite-card-title">
+                            <h3>Fast Delivery</h3>
+                        </div>
+                        <div class="favorite-card-desc">
+                            <p>But I must explain to you how all this
+                                mistaken idea of denouncing pleasur and
+                                prasising pain was bron.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+         <!-- favorite food section end -->
+
+         <!-- happy clien section start -->
+          <section class="container">
+            <div class="happy-section-container">
+                <div>
+                    <h5 class="sections-title">Testimonials</h5>
+                    <h1 class="section-sub-title">Our Happy Client Says</h1>
+                </div>
+                <div class="happy-section-cards">
+                    <span class="right-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+                          </svg>                                                     
+                    </span>
+                    <span class="left-icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>                         
+                    </span>
+                    <div class="happy-section-card-one">
+                        <div class="happy-section-card-content">
+                            <img src="Images/happy-client/Group 30.png" alt="Image">
+                            <div>
+                                <div class="name">Willians Jhone</div>
+                                <div class="poistion">CEO & Co-Founder</div>
+                            </div>
+                        </div>
+                        <p class="happy-section-card-desc">
+                            “Experience the fastest delivery in your city with our diverse menu of comforting classics and adventurous dishes. Enjoy hassle-free dining with flavors delivered directly to your doorstep. Discover new tastes and convenience with our speedy food delivery service.”
+                        </p>
+                    </div>
+                    <div class="happy-section-card-two">
+                        <img src="Images/happy-client/happy-clinet.png" alt="Image">
+                    </div>
+                </div>
+            </div>
+          </section>
+         <!-- happy clien section end -->
+
+         <!-- subcribe section start -->
+          <section class="container">
+            <div class="subcribe-section-container">
+                <div class="subcribe-section-cards">
+                    <div class="subcribe-section-card-image">
+                        <img src="Images/Hero-section-image/card-1.png" alt="">
+                    </div>
+                    <div class="subcribe-section-card">
+                        <h1>Subcribe To Our Newsletter</h1>
+                        <p>Stay informed and inspired! Subscribe to our newsletter for exclusive updates, special offers, and exciting content delivered directly to your inbox.</p>
+                        <div>
+                            <form onsubmit="handleSubmit(event)" id="subscription_form">
+                                <div class="email-container">
+                                    <input type="email" id="email-input" name="email" placeholder="Type your email....." required>
+                                    <button type="submit" id="submit-button">SUBSCRIBE</button>
+                                </div>
+                            </form>
+                        
+                            <div id="success_container" style="margin-top: 13px;">
+                                <!-- This is where success messages will be displayed -->
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+          </section>
+         <!-- subcribe section end -->
+
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start -->
+    <footer>
+        <section class="footer-section-container">
+            <div class="container">
+                <div class="footer-titles">
+                    <div class="responsive-div">
+                        <img src="Images/background-image-icons/nav-icon.png" class="footer-images" alt="">
+                        <div class="">
+                            <p class="footer-desc-para">
+                                Discover a world of flavors delivered <br> comforting br classics to adventurous <br> dishes, enjoy hassle-free dining with <br> our speedy food delivery service.
+                            </p>
+                            <div class="footer-icons">
+                                <div class="icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>  
+                                <div class="icons">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="icons">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="icons">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="responsive-div">
+                        <h1>Opening Restaurant</h1>
+                        <div class="footer-desc">
+                            <p class="footer-section-title">Sat-Wet: 09:00am-10:00PM</p>  <br>
+                            <p class="footer-section-title">Thursdayt: 09:00am-11:00PM</p>   <br>
+                            <p class="footer-section-title">Friday: 09:00am-8:00PM</p>  
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="user-link">User Link</h1>
+                        <div class="footer-desc">
+                            <span> <a class="footer-section-link" href="#">About Us</a> </span> <br>
+                            <span> <a class="footer-section-link" href="#">Contact Us</a></span> <br>
+                            <span> <a class="footer-section-link" href="#">Order Delivery</a> </span>  <br>
+                            <span> <a  class="footer-section-link" href="#">Payment & Tex</a> </span>  <br>
+                            <span> <a class="footer-section-link" href="#">Terms of Services</a>  </span> <br>
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="contact-us">Contact Us</h1>
+                        <div class="footer-desc">
+                            <p class="footer-section-title">Mohammadpur, Dhaka</p> <br>
+                            <p class="footer-section-title">+88 017 0000 0000</p> <br>
+                            <p class="footer-section-title">+88 018 0000 0000</p> <br>
+                            <form action="" class="footer-email-container">
+                                <input type="email" name="email" placeholder="Enter your email....">
+                                <a href="#" type="submit" class="footer-submite-eamil-button">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- js links -->
+     <script src="js/script.js"></script>
+</body>
+</html>

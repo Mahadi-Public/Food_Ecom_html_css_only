@@ -1,0 +1,526 @@
+@media only screen and (max-width: 576px) {
+    /* global css media */
+    .container {
+        padding: 0px 25px;
+    }
+    .nav-container,.banner-section-content,.address-section-container,.happy-section-cards,.subcribe-section-cards,.footer-titles{
+        flex-direction: column;
+    }
+    .section-sub-title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    /* nav section css */
+    .nav-list{padding: 10px 0px; margin-left: 0%;} 
+
+    /* banner section css */
+    .banner-section-background { background-image: none;}
+    .banner-section-container {
+        padding: 60px 0px;
+    }
+    .banner-title h1{
+        font-size: 45px;
+    }
+    .banner-desc p {width: 100%;}
+    .order-button,.process-button { font-size: 14px; }
+
+    .card-content h4 {
+        font-size: 20px;
+    }
+
+    .card-content p {
+        font-size: 15px;
+    }
+
+    /* address section css */
+    .time, .location {
+        border: none;
+        border-bottom: 2px solid #B6B6B6;
+        padding: 20px 50px;
+    }
+
+    /* product section css */
+    .products-cards-container,.favorite-sections-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* happy section css */
+    .happy-section-card-one {
+        padding: 18px;
+        width: 100%;
+    }
+    .right-icons, .left-icons{display: none;}
+
+    /* subcribe section css */
+    .email-container {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+    }
+    .subcribe-section-card {
+        margin-left: 0;
+        text-align: center;
+    }
+    .subcribe-section-card p {
+        width: 100%;
+    }
+
+    .subcribe-section-card-image img {
+        padding: 0px;
+    }
+    .subcribe-section-cards {
+        padding: 10px;
+    }
+
+    #submit-button {
+        padding: 18px 5px; 
+        margin-left: 0; 
+        font-size: 11px;
+    }
+
+    /* footer section css */
+    .responsive-div{
+        margin-top: 40px;
+    }
+    .footer-images {
+        margin-left: 30%;
+        margin-bottom: 6%;
+    }
+    .footer-icons {
+        justify-content: center;
+    }
+    .footer-desc-para {
+        text-align: center;
+    }
+    .user-link {
+        margin-top: 40%;
+        text-align: center;
+    }
+    .contact-us {
+        margin-top: 20%;
+        text-align: center;
+    }
+    .footer-section-link {  
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    /* global css media */
+    .container {
+        padding: 0px 30px;
+    }
+    .nav-container,.banner-section-content,.happy-section-cards,.subcribe-section-cards,.footer-titles  {
+        flex-direction: column;
+    }
+    .section-sub-title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    /* navber section */
+    .nav-list {
+        margin-left: 0%;
+        padding: 15px 0px;
+    }
+
+    /* banner section */
+    
+    .banner-cards-container {
+        margin-top: 19%;
+    }
+
+    /* address section */
+    .address-section-title {
+        font-size: 12px;
+    }
+
+    /* product section */
+    .product-card-content h4 {
+        font-size: 13px;
+    }
+    .produt-card-button button {
+        padding: 10px 9px;
+        font-size: 12px;
+    }
+    .products-cards-button button {
+        padding: 22px 29px;
+    }
+
+    /* favorite section */
+    .favorite-card, .favorite-card-item {
+        padding: 41px 10px;
+    }
+    .favorite-card-desc p {
+        font-size: 12px;
+    }
+    .favorite-card-title h3 {
+        font-size: 20px;
+    }
+
+    /* happy section css */
+    .happy-section-card-one {
+        width: 100%;
+        padding: 60px 0px;
+    }
+
+    .happy-section-card-desc {
+        font-size: 14px;
+        padding: 24px 52px;
+    }
+
+    .happy-section-card-two img {
+        margin-top: 8%;
+    }
+
+    .left-icons {
+        left: 96%;
+        top: 20%;
+    }
+    .right-icons {
+        right: 97%;
+        top: 20%;
+    }
+
+    /* subcribe section card */
+    .subcribe-section-cards {
+        padding-bottom: 67px;
+    }
+
+    /* footer section */
+    .responsive-div{
+        margin-top: 40px;
+    }
+    .footer-images {
+        margin-left: 30%;
+        margin-bottom: 6%;
+    }
+    .footer-icons {
+        justify-content: center;
+    }
+    .footer-desc-para {
+        text-align: center;
+    }
+    .user-link {
+        margin-top: 40%;
+        text-align: center;
+    }
+    .contact-us {
+        margin-top: 20%;
+        text-align: center;
+    }
+    .footer-section-link {  
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+     /* global css media */
+     .container {
+        padding: 0px 35px;
+    }
+
+    .happy-section-cards,.subcribe-section-cards,.footer-titles,.nav-container{
+        flex-direction: column;
+    }
+
+    .section-sub-title {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    /* navber section */
+    .nav-list {
+        margin-left: 0%;
+        padding: 38px 0px;
+    }
+
+    /* banner section css */
+    .banner-section-background {
+        background-image: none;
+    }
+    .banner-section-content {
+        gap: 29px;
+    }
+    .banner-title h1 {
+        font-size: 36px;
+    }
+    .banner-desc p {
+        width: 85%;
+        font-size: 12px;
+    }
+    .card-content h4 {
+        font-size: 20px;
+        padding-top: 7px;
+    }
+
+    /* address section css */
+    .address-section-title {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    /* product section css */
+    .product-card-content h4 {
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .produt-card-button button {
+        padding: 9px 10px;
+        font-size: 10px;
+    }
+    .products-cards-button button {
+        padding: 20px 39px;
+    }
+
+    /* favorite section css */
+    .favorite-card-title h3 {
+        font-size: 20px;
+    }
+    .favorite-card-desc p {
+        font-size: 11px;
+        padding: 10px 13px;
+    }
+
+    /* happy section css */
+    .happy-section-card-one {
+        padding: 60px 0px;
+        width: 100%;
+    }
+    .happy-section-card-desc {
+        padding: 20px 46px;
+    }
+    .left-icons {
+        left: 96%;
+        top: 20%;
+    }
+    .right-icons {
+        right: 96%;
+        top: 20%;
+    }
+    .happy-section-card-two img {
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    /* subcribe section css */
+    .subcribe-section-cards {
+        padding-bottom: 67px;
+    }
+
+    /* footer section */
+    .responsive-div{
+        margin-top: 40px;
+    }
+    .footer-images {
+        margin-left: 30%;
+        margin-bottom: 6%;
+    }
+    .footer-icons {
+        justify-content: center;
+    }
+    .footer-desc-para {
+        text-align: center;
+    }
+    .user-link {
+        margin-top: 40%;
+        text-align: center;
+    }
+    .contact-us {
+        margin-top: 20%;
+        text-align: center;
+    }
+    .footer-section-link {  
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-section-title {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1024px) { 
+    .container {
+        padding: 0px 30px;
+    }
+
+    /* banner section */
+    .banner-title h1 {
+        font-size: 55px;
+    }
+
+    /* product section css */
+    .product-card-content h4 {
+        font-size: 19px;
+    }
+    .products-cards-button button {
+        padding: 20px 42px;
+    }
+
+    /* favorite section css */
+    .favorite-sections-cards {
+        gap: 30px;
+        margin-top: 45px;
+    }
+    .favorite-card-desc p {
+        font-size: 15px;
+        padding: 1px 15px;
+    }
+
+    /* happy section css */
+    .happy-section-card-one {
+        padding: 30px;
+        width: 100%;
+    }
+    .left-icons {
+        left: 55%;
+        top: 45%;
+    }
+    .right-icons {
+        right: 98%;
+        top: 45%;
+    }
+    .happy-section-card-desc {
+        font-size: 13px;
+        padding: 20px 23px;
+    }
+
+    /* subcribe section css */
+    .subcribe-section-card-image img {
+        padding: 0px;
+    }
+    .subcribe-section-card h1 {
+        font-size: 25px;
+    }
+    .subcribe-section-card p {
+        font-size: 16px;
+        width: 90%;
+        line-height: 19.94px;
+    }
+
+    /* footer section css */
+    .footer-titles {
+        gap: 2%;
+    }
+    .footer-desc-para {
+        font-size: 12px;
+        line-height: 17.94px;
+    }
+    .footer-section-title {
+        font-size: 16px;
+    }
+    .footer-email-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 9px;
+    }
+
+}
+
+@media screen and (min-width: 2080px) {
+    .container {
+        padding: 0px 80px;
+    }
+
+    /* banner section css */
+    .banner-title h1 {
+        font-size: 96px;
+    }
+    .banner-desc p {
+        font-size: 20px;
+    }
+    .card {
+        width: 300px;
+        margin: 75px 0px;
+    }
+
+    /* address section csss */
+    .time, .location {
+        padding: 31px 100px;
+    }
+    .contact {
+        padding: 0px 100px;
+    }
+
+    /* products section css */
+    .products-cards-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 45px;
+    }
+
+    /* favorite section css */
+    .favorite-sections-cards {
+        margin-top: 75px;
+    }
+    .favorite-card, .favorite-card-item {
+        padding: 112px 0px;
+    }
+    .favorite-card-title h3 {
+        font-size: 32px;
+        padding: 25px 0px;
+    }
+    .favorite-card-desc p {
+        font-size: 20px;
+        padding: 22px 67px;
+    }
+
+    /* happy section css */
+    .happy-section-card-one {
+        padding: 100px 76px;
+        width: 49%;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .poistion {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    .happy-section-card-desc {
+        font-size: 21px;
+        padding: 30px 21px;
+    }
+    .left-icons {
+        left: 56%;
+        top: 50%;
+    }
+    .right-icons {
+        position: absolute;
+        right: 99%;
+        top: 50%;
+    }
+
+    /* subcribe section css */
+    .subcribe-section-card-image img {
+        padding: 0 130px;
+    }
+    .subcribe-section-card h1 {
+        font-size: 38px;
+        padding: 23px 0px;
+    }
+    .subcribe-section-card p {
+        font-size: 21px;
+        width: 100%;
+        line-height: 26.94px;
+    }
+    .email-container {
+        width: 86%;
+        padding: 12px 17px;
+    }
+
+    /* footer section css */
+    .footer-titles {
+        justify-content: space-between;
+        padding: 58px 0px;
+    }
+}
